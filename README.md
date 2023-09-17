@@ -1,4 +1,4 @@
-# Flutter web uil docker
+# Flutter web build docker
 
 An example project on how to build Flutter web using docker (and also deploy it).
 
