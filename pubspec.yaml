@@ -2,7 +2,7 @@ name: flutter_web_build_docker
 description: An example project on how to build Flutter web using docker (and also deploy it) .
 publish_to: 'none'
 
-version: 1.0.0-RELEASE.20230917
+version: 1.1.0-RELEASE.20230917
 
 environment:
   sdk: ">=3.1.0 <4.0.0"
