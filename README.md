@@ -25,7 +25,7 @@ RUN apt-get update
 RUN apt-get install -y curl git unzip
 
 #define variables
-ARG FLUTTER_VERSION=3.13.0
+ARG FLUTTER_VERSION=3.24.1
 ARG FLUTTER_SDK_LOCATION=/usr/local/flutter
 ARG APP_LOCATION=/app/
 
@@ -72,7 +72,7 @@ To use a specific version of Flutter, simply change the value of the `FLUTTER_VE
 
 ### Use specific Flutter Checkout
 
-If you want to use a specific commit due to a fork or something, (IDK) you must modify the line:
+If you want to use a specific commit due to a fork or something (IDK), you must modify the line:
 
 ```dockerfile
 RUN cd $FLUTTER_SDK_LOCATION && git checkout tags/$FLUTTER_VERSION
