@@ -2,8 +2,6 @@
 
 An example project on how to build Flutter web using docker (and also deploy it).
 
-This example is deployed [HERE](https://flutter-web-build-docker.root101.dev/)
-
 ## Getting Started
 
 To build a Flutter project you need, well, a project, so I used the default one when creating a new
